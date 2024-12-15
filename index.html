@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor</title>
+
+    <!--Google Style Sheet for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/footer logo.png">    
+
+    <!--My Stylesheet Link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!--Section 1 - Navigation Bar with Logo and other details -->
+
+    <div class="navbar">
+
+        <div class="navbar__s1">
+            <img src="./images/Tripadvisor logo.jpg" alt="Tripadvisor">
+        </div>
+
+        <div class="navbar__s2">
+            <h3>Discover</h3>
+            <h3>Trips</h3>
+            <h3>Review</p>
+            <h3>More</h3>
+        </div>
+
+        <div class="navbar__s3">
+            <i class="fa-solid fa-globe"></i>
+            <h3>|</h3>
+            <h3>INR</h3>
+            <h3 class="signin">Sign in</h3>
+        </div>
+    </div>
+
+    <!--Section 2 - Category section for searching hotels-->
+
+    <div class="section2">
+        <h1>Where to?</h1>
+        <div class="section2__search__hotels">
+            <h4><i class="fa-solid fa-house"></i>Search All</h4>
+            <h4><i class="fa-solid fa-bed"></i>Bed</h4>
+            <h4><i class="fa-solid fa-utensils"></i>Restaurants</h4>
+            <h4><i class="fa-solid fa-plane-departure"></i>Flights</h4>
+            <h4><i class="fa-solid fa-music"></i>Music</h4>
+        </div>
+
+        <!--Search for Hotels-->
+        <div class="hotel-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Places to go,things to do,hotels...">
+            <button class="button"><b>Search</b></button>
+        </div>
+
+    </div>
+
+    <!--Section 3 - Image for the website-->
+
+    <div class="section3__image">
+        <img src="images/Swimming.jpg" alt="Scuba Diving">
+        <h1>Cheers to your Achievements </h1>
+        <p class="section3__image__review">We went, we reviewed, we reached milestones. See the big things we did
+            together in 2024.</p>
+        <button><b>Check it Out</b></button>
+    </div>
+
+    <!--Section 4 for Flexbox section images -->
+    <div class="section4">
+        <h2>Treat yourself to an award-winning meal</h2>
+        <p class="section4__award"><i>2024’s Travelers’ Choice Awards Best of the Best Restaurants</i>
+        </p>
+
+        <!-- Flexbox Section for the images -->
+        <div class="section4__container">
+            <div class="section4__container__images">
+                <img src="./images/Fine Dining.jpg" alt="Fine Dining">
+                <h3>Fine Dining</h3>
+            </div>
+            <div class="section4__container__images">
+                <img src="./images/Date Night.jpg" alt="Date Night">
+                <h3>Date Night</h3>
+            </div>
+            <div class="section4__container__images">
+                <img src="./images/Casual Dining.jpg" alt="Casual Dining">
+                <h3>Casual Dining</h3>
+            </div>
+            <div class="section4__container__images">
+                <img src="./images/Hidden Gems.jpg" alt="Hidden Gems">
+                <h3>Hidden Gems</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Section 5 for Flexbox section images -->
+    <div class="section4">
+        <h2>Get inspired by our fave travel creators </h2>
+        <p class="section4__award"><i>Tried-and-true guidance to fuel your next big trip </i>
+        </p>
+
+        <!-- Flexbox Section for the images -->
+        <div class="section5__container">
+            <div class="section5__container__images">
+                <img src="./images/3 family-friendly days in Rome.jpg" alt="Fine Dining">
+                <p class="author">By Ashlyn S</p>
+                <h4 class="caption">3 family-friendly days in Rome</h4>
+                <p class="emoji">🩷</p>
+                <p class="items">30 items</p>
+            </div>
+            <div class="section5__container__images">
+                <img src="./images/The ultimate 'workcation' in Mexico City.jpg" alt="Date Night">
+                <p class="author">By Eileen Ivette</p>
+                <h4 class="caption">The ultimate 'workcation' in Mexico City</h4>
+                <p class="emoji">🩷</p>
+                <p class="items">28 items</p>
+            </div>
+            <div class="section5__container__images">
+                <img src="./images/Exploring LGBTQ+-friendly Barcelona.jpg" alt="Casual Dining">
+                <p class="author">By Two Bad Tourists</p>
+                <h4 class="caption">Exploring LGBTQ+-friendly Barcelona</h4>
+                <p class="emoji">🩷</p>
+                <p class="items">28 items</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Section 6 for Explore pages -->
+    <div class="explore-page">
+        <h2 class="explore-page__title">More to explore</h2>
+        <div class="section6__container">
+            <div class="section5__container__images">
+                <img src="./images/A first-timer’s guide to Christmas market cruises.jpg" alt="Fine Dining">
+                <i class="fa-solid fa-heart"></i>
+                <h4 class="caption1">A first-timer’s guide to Christmas market cruises</h4>
+            </div>
+            <div class="section5__container__images">
+                <img src="./images/12 island getaways we love.jpg" alt="Date Night">
+                <i class="fa-solid fa-heart"></i>
+                <h4 class="caption1">12 island getaways we love to explore ourselves</h4>
+            </div>
+            <div class="section5__container__images">
+                <img src="./images/6 great reasons to visit Dublin in the winter.jpg" alt="Casual Dining">
+                <i class="fa-solid fa-heart"></i>
+                <h4 class="caption1">6 great reasons to visit Dublin in the winter</h4>
+            </div>
+        </div>
+
+    </div>
+
+    <!--- Footer Section -->
+
+    <div class="footer">
+
+        <div class="footer__one">
+
+            <div class="footer__one__1">
+
+                <h3>About Tripadvisor</h3>
+                <p>About Us</p>
+                <p>Press</p>
+                <p>Resources and Polices</p>
+                <p>Careers</p>
+                <p>Trust & Safety</p>
+                <p>Contact us</p>
+                <p>Accessibility Statement</p>
+            </div>
+
+            <div class="footer__one__2">
+
+                <h3>Explore</h3>
+                <p>Add a Place</p>
+                <p>Write a review</p>
+                <p>Join</p>
+                <p>Travellers Choice</p>
+                <p>Green Leaders</p>
+                <p>Help Center</p>
+                <p>Travel Articles</p>
+            </div>
+
+            <div class="footer__one__3">
+
+                <h3>Do Business With Us</h3>
+                <p>Owners & DMO/CVBs</p>
+                <p>Business Advantage</p>
+                <p>Sponsored Placements</p>
+                <p>Travellers Choice</p>
+                <p>Access our Content API</p>
+                <h3>Get The App </h3>
+                <p>iPhone App</p>
+                <p>Android App</p>
+            </div>
+
+            <div class="footer__one__4">
+                <h3>Do Business With Us</h3>
+                <p>Book tours and attraction tickets on Viator </p>
+            </div>
+        </div>
+
+        <div class="footer__two">
+
+            <div class="footer__two__1">
+
+                <img src="./images/footer logo.png" width="100px">
+                <p>&copy;2024 Tripadvisor LLC All rights reserved. </p> <br>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,343 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    position: sticky;
+}
+
+.navbar__s1 img {
+
+    width: 200px;
+}
+
+.navbar__s1 img:hover {
+
+    cursor: pointer;
+}
+
+.navbar__s2 {
+
+    display: flex;
+    gap: 10px;
+}
+
+.navbar__s2 h3:hover {
+
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.navbar__s3 {
+
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.navbar__s3 .signin {
+
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.navbar__s3 .signin:hover {
+
+    cursor: pointer;
+}
+
+.navbar__s1,
+.navbar__s2,
+.navbar__s3 {
+
+    position: sticky;
+}
+
+.section2 {
+
+    flex-grow: 1;
+    flex-basis: 30%;
+}
+.section2 h1 {
+
+    text-align: center;
+    font-size: 50px;
+}
+
+.section2__search__hotels {
+
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+    margin-left: 220px;
+
+}
+
+.section2__search__hotels i,
+h4 {
+
+    margin: 10px;
+}
+
+.section2__search__hotels i,
+h4:hover {
+
+    border-bottom: 3px solid black;
+    cursor: pointer;
+}
+
+.hotel-search {
+
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    width: 70%;
+    margin-left: 200px;
+    align-items: center;
+    position: sticky;
+}
+
+.hotel-search input {
+
+    border: none;
+    width: 30%;
+}
+
+.hotel-search input:focus {
+
+    outline: none;
+}
+
+.button {
+    position: relative;
+    left: 505px;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: #34E0A1;
+    font-size: 18px;
+    border: none;
+}
+
+.button:hover {
+
+    cursor: pointer;
+}
+
+.section3__image {
+
+    position: relative;
+    padding: 30px;
+}
+
+.section3__image img {
+
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.section3__image h1,
+.section3__image__review {
+
+    position: relative;
+    bottom: 150px;
+    color: white;
+    margin-left: 50px;
+}
+
+.section3__image button {
+
+    position: relative;
+    bottom: 150px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.section3__image button:hover {
+
+    cursor: pointer;
+}
+
+.section4 {
+
+    position: relative;
+    bottom: 120px;
+    margin: 30px;
+}
+
+.section4__award {
+
+    position: relative;
+    top: 10px;
+}
+
+.section4__container {
+
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4__container__images img {
+
+    width: 270px;
+    border-radius: 10px;
+}
+
+.section4__container__images img:hover {
+
+    cursor: pointer;
+}
+
+.section4__container__images h3 {
+
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+    font-size: 30px;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.section5__container {
+
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section5__container__images img {
+
+    height: 250px;
+    width: 370px;
+    border-radius: 30px;
+}
+
+.section5__container .author,
+.emoji,
+.items,
+.caption {
+
+    text-align: center;
+    padding: 4px;
+}
+
+.section5__container__images img:hover {
+
+    cursor: pointer;
+}
+
+.explore-page {
+
+    height: 450px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.explore-page__title {
+
+    padding: 50px;
+}
+
+.section6__container {
+
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section6__container__images {
+
+    margin-bottom: 10px;
+
+}
+.section6__container__images img {
+
+    height: 230px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.section6__container .caption1 {
+
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5px;
+}
+
+.section5__container__images img:hover {
+
+    cursor: pointer;
+}
+
+.section5__container__images i {
+
+    position: relative;
+    bottom: 220px;
+    right: 50px;
+    z-index: 1;
+}
+
+.footer {
+
+    height: 500px;
+    background-color: #FBF5F0;
+    width: 100%;
+    padding:30px;
+    margin-top: 100px;
+}
+
+.footer p,h3{
+
+    margin: 20px;
+}
+
+.footer__one {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__one p:hover {
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer__two__1 {
+
+    display: flex;
+
+}
+
+@media screen and (max-width:600px) {
+
+    .navbar {
+
+        display: none;
+    }
+}
